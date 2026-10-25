@@ -1,0 +1,305 @@
+### 7. Мария
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Maria",
+  "email": "maria@mail.ru"
+}
+
+### 8. Сергей
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Sergey",
+  "email": "sergey@yandex.ru"
+}
+
+### 9. Ольга
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Olga",
+  "email": "olga@gmail.com"
+}
+
+### 10. Дмитрий
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Dmitry",
+  "email": "dmitry@mail.ru"
+}
+
+### 11. Екатерина
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Ekaterina",
+  "email": "ekaterina@test.com"
+}
+
+### 12. Михаил
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Michael",
+  "email": "michael@example.com"
+}
+
+### 13. Юлия
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Julia",
+  "email": "julia@mail.ru"
+}
+
+### 14. Алексей
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Alexey",
+  "email": "alexey@yandex.ru"
+}
+
+### 15. Татьяна
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Tatiana",
+  "email": "tatiana@gmail.com"
+}
+
+### 16. Андрей
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Andrey",
+  "email": "andrey@mail.ru"
+}
+
+### 17. Светлана
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Svetlana",
+  "email": "svetlana@test.com"
+}
+
+### 18. Максим
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Maxim",
+  "email": "maxim@example.com"
+}
+
+### 19. Ирина
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Irina",
+  "email": "irina@mail.ru"
+}
+
+### 20. Олег
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Oleg",
+  "email": "oleg@yandex.ru"
+}
+
+### 21. Наталья
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Natalia",
+  "email": "natalia@gmail.com"
+}
+
+### 22. Павел
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Pavel",
+  "email": "pavel@mail.ru"
+}
+
+### 23. Анастасия
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Anastasia",
+  "email": "anastasia@test.com"
+}
+
+### 24. Роман
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Roman",
+  "email": "roman@example.com"
+}
+
+### 25. Виктория
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Victoria",
+  "email": "victoria@mail.ru"
+}
+
+### 26. Денис
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Denis",
+  "email": "denis@yandex.ru"
+}
+
+### 27. Ксения
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Ksenia",
+  "email": "ksenia@gmail.com"
+}
+
+### 28. Артем
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Artem",
+  "email": "artem@mail.ru"
+}
+
+### 29. Алина
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Alina",
+  "email": "alina@test.com"
+}
+
+### 30. Никита
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Nikita",
+  "email": "nikita@example.com"
+}
+
+### 31. Юлия (второй вариант написания)
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Yulia",
+  "email": "yulia@mail.ru"
+}
+
+### 32. Кирилл
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Kirill",
+  "email": "kirill@yandex.ru"
+}
+
+### 33. София
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Sofia",
+  "email": "sofia@gmail.com"
+}
+
+### 34. Егор
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Egor",
+  "email": "egor@mail.ru"
+}
+
+### 35. Валерия
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Valeria",
+  "email": "valeria@test.com"
+}
+
+### 36. Владислав
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Vladislav",
+  "email": "vladislav@example.com"
+}
+
+### 37. Дарья
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Daria",
+  "email": "daria@mail.ru"
+}
+
+### 38. Антон
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Anton",
+  "email": "anton@yandex.ru"
+}
+
+### 39. Полина
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Polina",
+  "email": "polina@gmail.com"
+}
+
+### 40. Глеб
+POST http://localhost:5243/api/users
+Content-Type: application/json
+
+{
+  "userName": "Gleb",
+  "email": "gleb@mail.ru"
+}

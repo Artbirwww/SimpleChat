@@ -1,49 +1,98 @@
-# Build results
+# ============================================================
+#  SimpleChat — .gitignore
+# ============================================================
+
+# ---------- Сборка / артефакты .NET ----------
+[Bb]in/
+[Oo]bj/
 [Dd]ebug/
-[Dd]ebugPublic/
 [Rr]elease/
-[Rr]eleases/
 x64/
 x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
+build/
 bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-[Ll]ogs/
-
-# Visual Studio files
-*.user
+out/
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.cache
+*.pidb
 *.suo
+*.user
 *.userosscache
 *.sln.docstates
-*.vs/
-.vscode/
-
-# Rider / JetBrains
-.idea/
-*.sln.iml
-
-# NuGet Packages
+*.userprefs
+*.svclog
 *.nupkg
 *.snupkg
-**/[Pp]ackages/*
-!**/[Pp]ackages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
 
-# ASP.NET Core specific
-appsettings.Development.json
-appsettings.*.json
-!appsettings.json
+# ---------- Visual Studio / VS Code / Rider ----------
+.vs/
+.vscode/
+.idea/
+*.rsuser
+*.DotSettings.user
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.sln.iml
+*.VC.db
+*.VC.opendb
 
-# User-specific files
-*.swp
-*.swo
-*~
+# ---------- Логи ----------
+*.log
+logs/
+log/
+operations.log
 
-# OS generated files
+# ---------- ОС ----------
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+desktop.ini
 
-# Postman (если не хотите коммитить локальные настройки)
+# ---------- Секреты / локальные конфиги ----------
+# appsettings.json — оставляем в репозитории (общие настройки),
+# а локальные переопределения игнорируем:
+appsettings.*.local.json
+appsettings.Local.json
+*.local.json
+.env
+.env.*
+!.env.example
+secrets.json
+*.pfx
+*.snk
+
+# ---------- Проектные временные файлы ----------
+project_structure.txt
+*.tmp
+*.bak
+*.swp
+
+# ---------- Postman (локальное рабочее пространство) ----------
+# Коллекции/переменные, которые генерирует Postman локально.
+# Если хочешь шарить коллекции — удали эти строки.
+postman/
 .postman/
+postman/.postman/
+
+# ---------- Тестовые данные / скрипты (при необходимости) ----------
+# test_data.http
+# run_all_requests.ps1
